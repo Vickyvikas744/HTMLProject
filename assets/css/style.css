@@ -1,0 +1,1081 @@
+@font-face{font-family:Museosans; src:url(../fonts/MuseoSans-300.otf) format("truetype"); font-weight:300; font-style:normal;}
+@font-face{font-family:Museosans; src:url(../fonts/MuseoSans-100.otf) format("truetype"); font-weight:100; font-style:normal;}
+@font-face{font-family:Museosans; src:url(../fonts/MuseoSans_500.otf) format("truetype"); font-weight:500; font-style:normal;}
+@font-face{font-family:Museosans; src:url(../fonts/MuseoSans_700.otf) format("truetype"); font-weight:700; font-style:normal;}
+body{font-family:Museosans; font-weight:300; font-size:16px; color:#fff; background:#000; overflow-x:hidden;}
+.banner{margin-top:20px;}
+ul{margin:0; padding:0;}
+ul li{list-style:none; display:inline-block;}
+section{overflow:hidden; background-repeat:no-repeat;}
+.section-title h1{font-size:60px; font-weight:700;}
+h1.heading{font-size:70px;}
+.section-title h2{font-size:40px; font-weight:100;}
+h2.subtitle{font-size:48px; font-weight:700;}
+a.navbar-brand{margin-top:-20px;}
+.section-title h3{font-size:40px; font-weight:300;}
+a.border-btn{color:#fff; display:inline-block; padding:10px; border:1px solid #fff; border-radius:50px; font-size:20px; line-height:1; text-decoration:none; transition:all ease-in .3s;}
+a.border-btn:hover{background:#fff; color:#000;}
+a.border-btn.fill{background:#fff; color:#000;}
+.black-bg{background-color:#000;}
+.amazing-experience a.border-btn{padding:6px 10px; font-size:15px;}
+.section-title.sub-section h1{font-size:40px;}
+.section-title.sub-section h2{font-size:35px;}
+.section-title.sub-section a.border-btn{font-size:16px;}
+.mt-10{margin-top:-10px;}
+.pb-60{padding-bottom:60px;}
+.pt-40{padding-top:40px;}
+.pt-100{padding-top:100px;}
+.px-60{padding:60px 0;}
+body.aboutpage{background:#fff;}
+.sansui-detail{padding:80px 0; border-bottom:1px solid #000;}
+.half-section.contact-us{height:670px;}
+.company-location a{color:#fff; text-decoration:none;}
+.company-location p{font-size:18px;}
+.company-location h4{margin-bottom:30px; font-size:30px;}
+.email input{background:0 0; border:1px solid #fff; width:300px; height:45px; padding-left:10px;}
+input,select,textarea{color:#fff;}
+.company-location.email{padding:200px 0;}
+.email button{margin-left:-35px; background:0 0; color:#fff; border:none; font-size:18px; outline:0;}
+.sansui-detail p{color:#000; margin-top:10px; font-size:20px;}
+.header-area{background:#000; position:fixed; top:0; left:0; right:0; transition:all ease-in .3s; z-index:1000;}
+.header-area .navbar{padding-top:20px; padding-bottom:0;}
+.navbar li{margin-left:15px; padding-bottom:20px; cursor:pointer;}
+a.navbar-brand img{max-width:175px;}
+.navbar-dark .navbar .nav-link{color:#fff;}
+.header-area ul li a{color:#fff;}
+.header-right ul li{margin-left:20px;}
+.header-area.scrolled{position:fixed; width:100%; left:0; right:0; top:-95px; transition:all ease-in .4s;}
+.header-area.scrolled.show{display:block; position:fixed; top:0; left:0; right:0; width:100%; transition:all ease-in .4s; z-index:1000;}
+video{width:100%;}
+.header-area.scrolled{display:none; transition:all ease-in .4s;}
+.specification-header{position:fixed; width:100%; top:80px; z-index:99; transition:all ease-in .1s;}
+.specification-header.scrolled{top:0;}
+.specification-header.scrolled.show{top:80px; transition-delay:.3s;}
+ul.submenu{position:absolute; top:130%; background:#fff; left:0; right:0; margin:0 auto; text-align:center; opacity:0; visibility:hidden; transition:all ease-in .3s;}
+li.television ul.submenu li a{margin:0;}
+ul.submenu li a{color:#000; margin:0 20px; text-decoration:none; font-size:14px; text-align:center; display:grid;}
+li.nav-item:hover ul.submenu{visibility:visible; opacity:1; top:100%; transition:.3s;}
+ul.submenu li{margin:0; padding:20px 10px; width:calc(100% / 11);}
+ul.submenu li a img{height:65px; margin:0 auto;}
+.home-banner{padding-bottom:100px; padding-top:80px;}
+section.qled{background-size:cover; background-position:left; padding:70px 0; background-color:#000;}
+.qled .section-title{margin-bottom:145px;}
+.qled .bigpreview{margin-bottom:220px;}
+.smart-hd{padding-bottom:150px; padding-top:170px; background-size:cover; background-position:center;}
+.single-hd-tv.big img{max-height:320px;}
+.single-hd-tv{position:relative; height:255px;text-align: center;}
+.single-hd-tv.big.text-center.position-relative{margin-top:30px; height:229px;}
+.single-led-tv.first img{height:260px; margin-bottom:-15px;}
+.single-led-tv.third{margin-bottom:-5px;}
+p.tv-description,
+.single-hd-tv .border-btn{position:absolute; bottom:-90px; font-size:14px; border:1px solid #fff; border-radius:50px; width:135px; text-align:center; padding:13px 0; left:0; right:0; margin:0 auto;}
+.single-hd-tv.big.text-center{z-index:2;}
+.video-container{position:absolute; top:2px; left:0; right:0; z-index:0; width:99%; height:99%; margin:0 auto;}
+.image-layer{position:absolute; top:0; z-index:-1; left:0; right:0; top:0;}
+.refrigerator-washingmachine{background:#000; padding-top:100px; padding-bottom:60px;}
+.refrigerator-washingmachine .bigpreview{margin-top:10px;}
+.refrigerator img{max-height:570px;}
+.seperator{background:#fff; width:10px; height:100%; position:absolute; left:50%; top:0;}
+.home-appliances{background:#000; padding-top:100px; padding-bottom:60px;}
+.homeappliances .bigpreview img{margin:0 auto; max-width:70%;}
+.speakers img{max-width:80%;}
+.sound-wave-wrapper{position:absolute; width:100%; padding-bottom:10%; bottom:60%; left:0; z-index:3;}
+.sound-wave{position:absolute; top:0; width:10%; height:100%;}
+.sound-wave-circle{position:absolute; width:100%; height:100%; left:0; top:0; border-radius:50%; background-image:radial-gradient(circle,transparent
+50%,#8eb4d5); opacity:1; -webkit-transform:scale(0); transform:scale(0); -webkit-animation-iteration-count:infinite; animation-iteration-count:infinite;}
+.sound-wave-circle.sound-wave-circle-1{-webkit-animation-duration:2.5s; animation-duration:2.5s;}
+.sound-wave-circle.sound-wave-circle-2{-webkit-animation-duration:2.5s; animation-duration:2.5s; -webkit-animation-delay:.3s; animation-delay:.3s;}
+.sound-wave-circle.sound-wave-circle-3{-webkit-animation-duration:2.5s; animation-duration:2.5s; -webkit-animation-delay:.6s; animation-delay:.6s;}
+.sound-wave-wrapper.active .sound-wave.sound-wave-right .sound-wave-circle{-webkit-animation-name:sound-wave; animation-name:sound-wave;}
+.sound-wave.sound-wave-right.left{left:43.5%; top:-19px;}
+.sound-wave-right{right:90px; top:20px;}
+.sound-wave.sound-wave-right.bottom{left:43.5%; top:143px;}
+.sound-wave.sound-wave-right.bottom-right{right:91px; top:160px;}
+.sound-wave.sound-wave-right.small{left:21%; top:116px; transform:rotateY(45deg);}
+/* CSS Used keyframes */
+@-webkit-keyframes sound-wave{
+    to{
+        opacity:0;
+        -webkit-transform:scale(3);
+        transform:scale(3);
+    }
+}
+@keyframes sound-wave{
+    to{
+        opacity:0;
+        -webkit-transform:scale(3);
+        transform:scale(3);
+    }
+}
+.ac{background:#000; padding:200px 0;}
+img.wings{position:absolute; bottom:0; height:60px; width:78%; left:62px; right:0; opacity:1;}
+.product-title h2{font-size:55px; font-weight:700;}
+.product-title h3{font-size:25px; font-weight:300;}
+.single-menu-item{text-align:center;}
+.single-menu-item a{text-decoration:none; display:block;}
+.single-menu-item p{color:#000; font-size:14px; font-weight:500; margin-top:10px;}
+.single-menu-item img{height:65px;}
+.products-menu{padding:32px 0;}
+.product-wrapper{padding:200px 0; background-size:cover; background-position:center; background-repeat:no-repeat;}
+img.img-fluid.wrap{position:absolute; left:0; top:3px; bottom:0; height:89%; width:98.5%; right:0; text-align:center; margin:0 auto;}
+.product-bigpreview.position-relative{overflow:hidden;}
+section#qledtv .product-bigpreview.position-relative{overflow:visible;}
+section#qledtv img.img-fluid.wrap{width:100%; height:98%; z-index:-1;}
+table.table.table-borderless tr td{margin:0; padding:2px 0; color:#fff; font-size:14px;}
+table.table.table-borderless tr td:first-child{width:35%;}
+.accordion .card{background:0 0; color:#fff; position:relative; border:2px solid #fff;}
+.accordion{padding:5px 20px;}
+.card-header button{color:#fff; box-shadow:none!important; text-decoration:none!important; font-size:23px; text-align:center;}
+.card-header button:hover{color:#fff;}
+.card-header{z-index:2;}
+.card-body{margin:0; padding:0; z-index:2;}
+.card-header{padding:10px 0;}
+.nav-tabs a{background:#000; font-size:18px;}
+.nav-tabs a:hover{background:#fff; color:#000; transition:all ease-in .3s;}
+.nav-tabs{border:none;}
+li.nav-item a{color:#fff; margin-bottom:1px; font-weight:500;}
+.tab-pane.active{border:1px solid #fff;}
+.tab-pane{padding:20px 15px;}
+.nav-tabs .nav-item{background:#fff; margin-bottom:-1px; border:1px solid #fff; border-bottom:0;}
+.nav-tabs .nav-link.active{color:#000;}
+.smart-display.wrap{position:absolute; top:0; z-index:-1; height:99%; top:2px; margin:0 auto; left:0; right:0;}
+.side-text p{position:absolute; right:-227px; bottom:30%; transform:rotate(-90deg);}
+img.img-fluid.fhd-display.wrap{position:absolute; left:0; top:5px; bottom:0; height:85%; width:98%; right:0; text-align:center; margin:0 auto;}
+.tv-bottom{position:absolute; bottom:50px; width:93%; z-index:-1; left:0; margin:0 auto; text-align:center; right:0;}
+.smart-uhd-tv .product-bigpreview img{position:relative; z-index:97;}
+.smart-uhd-tv .smart-display.wrap{z-index:3;}
+img.img-fluid.hd-display.wrap{height:77%;}
+img.led-display.wrap{height:98%; top:2px; width:100%; position:absolute; z-index:0; margin:0 auto; left:0; right:0;}
+img.img-fluid.frame{z-index:100; overflow:hidden; position:relative; height:100%;}
+img.led-display.wrap.two{left:0;}
+.immersive-frame.text-center{height:500px;}
+p.form-message{color:#fff; font-size:14px; text-align:center; padding:4px 0; border-radius:8px; width:300px; position:absolute; top:110%;}
+p.form-message.success{background:#00c851;}
+p.form-message.error{background:#f44;}
+.uhd-65-banner{padding-top:75px; padding-bottom:90px;}
+.text-icon{padding:200px 0;}
+.text-icon .text{margin-bottom:70px;}
+.text-icon .text p{font-size:28px;}
+.section-title p{font-size:25px; font-weight:100;}
+.immersive-4k{padding:20px 0;}
+.bezel{padding-top:70px; padding-bottom:100px;}
+.side-preview{position:absolute; right:0; height:60%; bottom:0; width:500px;}
+.bezel .section-title{margin-bottom:150px;}
+.meet-android{padding-top:60px; padding-bottom:40px;}
+.dolby{padding-top:60px; padding-bottom:40px;}
+.dolby-audio{padding-top:60px; padding-bottom:75px;}
+.chromecast{padding-top:60px; padding-bottom:40px;}
+.chromecast-icon.text-center img{max-width:50px; margin-bottom:30px;}
+.google-assistant{padding:80px 0; background-size:cover; background-position:center; background-repeat:no-repeat; overflow:hidden;}
+.performance{padding-top:60px; padding-bottom:40px;}
+.conectivity{padding:120px 0;}
+.amazing-experience{padding:90px 0;}
+.experience-slider ul.slick-dots button{font-size:0; border:none; width:11px; height:11px; padding:0; background:#8c8a8a; border-radius:50%; margin:0 6px; margin-top:20px; cursor:pointer; outline:0!important;}
+.experience-slider li.slick-active button{background:#fff;}
+.text-icon h2{font-size:65px; margin-bottom:20px; font-weight:700;}
+.text-icon.uhd .text{margin-bottom:130px;}
+.display-4k{padding:30px 0;}
+.sizling-colors{padding-top:110px; padding-bottom:50px;}
+.content-frame p{font-size:14px; text-align:center; margin-left:32px;}
+.dedicated-section{padding:90px 0;}
+img.img-fluid.small-remote{position:absolute; right:-70px; bottom:0; height:205px;}
+section.sounud-uhd{background-size:cover; background-position:top; padding-top:40px; padding-bottom:60px;}
+.screen-mirror{padding-bottom:130px; padding-top:40px;}
+.mirror-frame img.img-fluid.mobile{position:absolute; right:-100px; bottom:-100px; height:100px;}
+.internet{padding:200px 0;}
+.internet .section-title p{font-size:20px;}
+.multiple-conectivity{padding:110px 0;}
+.product-specification{padding:200px 0;}
+ul.specification-lists li{display:block; text-align:center; font-size:32px; border:2px solid #fff; margin-bottom:30px;}
+.cover{background-size:cover; background-repeat:no-repeat; background-position:center;}
+img.img-fluid.performance{margin-top:-150px;}
+.led-bg{background:#111010;}
+.py-70{padding:70px 0;}
+.py-40{padding:40px 0;}
+.pt-60{padding-top:60px;}
+.pb-100{padding-bottom:100px;}
+.pb-30{padding-bottom:30px;}
+section.text-icon.led{padding:170px 0;}
+.bottom-text{position:absolute; right:-45px; font-size:13px; bottom:-43px;}
+section.speaker-led{background-size:cover; background-position:left;}
+.icon ul li img{max-width:120px; max-height:35px; min-height:48px; margin-bottom:10px; transition:.3s;}
+img.img-fluid.port{width:65px; min-height:25px;}
+.icon ul{margin:0 auto; text-align:center; display:flex; justify-content:center;}
+.icon ul li{border-right:1px solid #fff; padding:0 20px; height:85px; cursor:pointer;}
+.icon ul li:hover img{margin-bottom:15px; transition:.3s; transform:scaleX(1.2); transform:scaleY(1.05);}
+img.img-fluid.large{max-width:154px; min-height:70px;}
+.icon ul li:last-child{border:none;}
+.icon ul li p{font-size:15px; font-weight:100; line-height:1; transition:.4s; white-space:nowrap;}
+.icon ul li p span{font-weight:700;}
+.hd-bg{background:#111010;}
+img.smart-remote{position:absolute; right:-65px; bottom:65px; height:37%;}
+.mirror-smarthd .chromecast-icon{margin-top:-50px;}
+img.smart-remote.fhd{bottom:30px;}
+img.fhd-mobile.img-fluid{position:absolute; bottom:0; width:220px; right:-25px;}
+img.img-fluid.android-assitant{max-height:500px;}
+img.img-fluid.android-social{max-height:90px; margin-top:30px;}
+.qled-bg{background:#111010;}
+.qled-banner .heading{font-weight:500;}
+section.text-icon.qled-bg{padding:180px 0;}
+section.text-icon.qled-bg .text{margin-bottom:140px;}
+.banner-frame.ultrathin{margin-top:-26px;}
+.sound-wave-wrapper.active.tv{bottom:40px; z-index:0;}
+.sound-wave.sound-wave-right.tv-left{left:20%;}
+.sound-wave.sound-wave-right.tv-right{right:20%;}
+.audio-img{z-index:2; position:relative;}
+.uhd.position-relative .sound-wave-wrapper.active.tv{bottom:70px;}
+.uhd.position-relative .sound-wave.sound-wave-right.tv-right{top:0; transform:rotateY(45deg);}
+.uhd.position-relative .sound-wave.sound-wave-right.tv-left{transform:rotateY(45deg);}
+.fhd.position-relative .sound-wave-wrapper.active.tv{bottom:90px;}
+.fhd.position-relative .sound-wave.sound-wave-right.tv-right{top:0; transform:rotateY(45deg); right:30%;}
+.fhd.position-relative .sound-wave.sound-wave-right.tv-left{transform:rotateY(45deg); left:30%;}
+.qled-speaker{padding-bottom:75px;}
+.speaker-fhd{padding-bottom:70px;}
+.smarthd.position-relative .sound-wave-wrapper.active.tv{bottom:80px; z-index:4;}
+.smarthd.position-relative .sound-wave.sound-wave-right.tv-right{right:15%;}
+.smarthd.position-relative .sound-wave.sound-wave-right.tv-left{left:15%;}
+.led.position-relative .sound-wave-wrapper.active.tv{bottom:70px;}
+section.washingmachine-menu{padding:20px 0; position:fixed; z-index:98; width:100%; top:-147px; transition:all ease-in .3s; opacity:0; visibility:hidden;}
+section.washingmachine-menu.show{top:80px; opacity:1; visibility:visible;}
+.machine-wrapper{padding:120px 0;}
+.specification-header h5{font-size:18px;}
+.specification-header{background:#595858; padding:6px 0;}
+.specification-heading h2{font-size:55px; font-weight:700;}
+a.btn-black{background:#000; color:#fff; text-decoration:none; padding:5px 15px; border-radius:20px; font-size:14px;}
+.specification-baner{padding-top:70px; padding-bottom:30px;}
+.specification-text h3{font-size:60px; font-weight:700;}
+.specification-text p{font-size:24px; font-weight:100; text-align:justify; text-align-last:center;}
+.text-icons{padding:200px 0;}
+section.hot-water.cover{min-height:700px; max-height:100vh;}
+.hassle-preview{margin-top:45px;}
+.big-capacity .specification-text{margin-bottom:40px;}
+.controller{padding-top:180px; padding-bottom:50px;}
+.bucket{position:absolute; bottom:-25px; transform:translateX(50%);}
+.stone{position:absolute; top:0; left:0; right:0; text-align:center; transform:translateY(-98%);}
+.vibration-image{margin-top:100px;}
+.stone img{max-height:90px;}
+.controller{padding:160px 0;}
+section.wash{height:800px; padding:30px 0; background-size:cover; background-position:top; background-repeat:no-repeat;}
+.tough-bucket{position:absolute; bottom:0;}
+.tough-bucket-topload{position:absolute; bottom:10px; width:90%;}
+.side-button{position:absolute; bottom:25px; right:0;}
+.side-button a{padding:6px; font-size:16px;}
+.flap-image{margin-top:55px;}
+section.semi-automatic-banner{background-position:top; background-size:cover; background-repeat:no-repeat; padding:50px 0;}
+section.semi-automatic-banner .specification-heading{margin-bottom:78px;}
+.text-icons.semi-auto .specification-text{margin-bottom:100px;}
+.compact-design-frame{position:absolute; bottom:0; left:0; width:54%; transform:translateX(-90%);}
+.music-blast{position:relative;}
+.music-blast.right::before{background-image:url(../../images/speaker/shadow-bg.png); position:absolute; content:''; width:100%; height:100%; background-size:cover; background-position:center; top:0;}
+.music-blast.left::before{background-image:url(../../images/speaker/shadow-bg-left.png); position:absolute; content:''; width:100%; height:100%; background-size:cover; background-position:center; top:0;}
+.music-blast.bass::before{background-image:url(../../images/speaker/shadow-bg-bass.png); position:absolute; content:''; width:100%; height:100%; background-size:cover; background-position:center; top:0;}
+.music-bigpreview.bass img{max-width:250px!important;}
+.wave-blust-preview{margin-top:300px;}
+.banner-frame.drumbast{position:absolute; right:0; bottom:0; width:42%;}
+.banner-frame.drumbast img{width:100%;}
+section.banner.drumbast.cover{height:100vh; min-height:750px;}
+.tws{height:100vh; min-height:650px; padding-top:40px;}
+.banner-frame.tws-speaker{position:absolute; bottom:0; right:0; text-align:center; width:30%; margin:0 auto;}
+.banner-frame.tws-speaker img{width:100%;}
+img.battery{max-width:265px;}
+img.charge{position:absolute; top:50%; left:0; right:0; width:100%;}
+.half-bg{height:350px;}
+.fm-img{margin-top:-30px;}
+section.bassblast{height:100vh; min-height:750px;}
+.bass-bg{position:absolute; width:100%; height:100%;}
+.bass-bg img{height:100%; width:100%; object-fit:cover;}
+.banner-img{margin-top:60px;}
+.banner-overlay{position:absolute; bottom:0; left:0; right:0; width:100%;}
+section.musicblast.cover{padding-bottom:160px;}
+section.semi-automatic-banner{margin-top:100px;}
+.support li.nav-item a{color:#fff; margin:0 5px; font-weight:200; padding:15px 15px; border-radius:50px; border:1px solid #fff; background:#000;}
+.nav-tabs.support .nav-item{background:0 0; border:none; width:auto;}
+.speaker-btn,.specification-btn{color:#fff; text-decoration:none;}
+a.specification-btn:hover{color:#fff; text-decoration:none; transition:.3s; font-weight:500!important;}
+.speaker-btn:hover{color:#fff; text-decoration:none; transition:.3s; font-weight:500!important;}
+.policy-table th{color:#fff; font-size:16px; text-align:center; padding-left:0;}
+.policy-table tbody tr td{border-right:1px solid #fff;}
+.policy-table tbody tr td:last-child{border-right:none;}
+.policy-table tbody tr td{color:#fff;}
+.policy-table tr{border-left:1px solid #fff;}
+.policy-table.mb-5 th{border-right:1px solid #fff;}
+.policy-table.mb-5 th:last-child{border-right:none;}
+.table thead th{border-bottom:0;}
+.policy-table table{border-right:1px solid #fff; border-bottom:1px solid #fff;}
+.policy-table tbody tr td:first-child{text-align:left;}
+.policy-table tbody tr td:last-child{text-align:left;}
+.policy-table table.table.table-borderless tr td{text-align:left; margin-bottom:30px; font-size:14px; margin-right:10px;}
+.policy-table table.table.table-borderless tr td:first-child{width:15%;}
+.support-content h3{font-size:36px; margin:25px 0;}
+.support-content ol li{margin-bottom:10px; font-weight:100;}
+.support-content ol li::marker{margin-right:20px;}
+.support-content p a{list-style:none; color:#fff;}
+tr.table-subtitle td{white-space:nowrap; width:20%!important;}
+.support-content p{font-weight:100; margin-bottom:25px;}
+.doa-table tr th{color:#fff; padding-left:0; text-align:left;}
+.doa-table tr td{width:10%!important; text-align:left;}
+.e-waste-content p{font-weight:100; font-size:18px;}
+.contact-e-waste p{margin-bottom:2px; font-weight:700;}
+.single-pdf.text-center img{max-width:70px; margin-bottom:10px;}
+.contact-e-waste p a{color:#fff; text-decoration:none;}
+.single-pdf{margin-bottom:35px; padding:0 35px;}
+.single-pdf a{color:#fff; text-decoration:none;}
+.single-pdf:hover img{animation:shake .82s cubic-bezier(.36,.07,.19,.97) both; transform:translate3d(0,0,0); perspective:1000px;}
+@keyframes shake{
+    10%,
+    90%{
+        transform:translate3d(-1px,0,0);
+    }
+    20%,
+    80%{
+        transform:translate3d(2px,0,0);
+    }
+    30%,
+    50%,
+    70%{
+        transform:translate3d(-4px,0,0);
+    }
+    40%,
+    60%{
+        transform:translate3d(4px,0,0);
+    }
+}
+.nav-tabs.support{display:flex; justify-content:center;}
+.e-waste-content h4{font-size:36px; margin-bottom:30px;}
+.support-tab .nav-link.active{background:#939393; color:#fff;}
+.support-tab .nav-link:hover{background:#939393; color:#fff; transition:all ease-in .3s;}
+.footer{padding:30px 0; background:#fff;}
+.footer-widgets ul li{color:#000; font-weight:700; font-size:16px; display:block;}
+.footer-widgets ul li a{color:#000; font-weight:700; font-size:16px; text-decoration:none;}
+.footer-social{display:flex;}
+.footer-social ul li{display:inline-block;}
+.footer-social p{color:#000; font-weight:700; font-size:18px;}
+.footer-social ul li{margin-left:5px;}
+.company-detail-bannner p{padding:400px 0;}
+p.about{font-size:24px;}
+.ai-banner p{margin-top:550px;}
+.icon.machine-icon ul li p{line-height:18px;}
+img.img-fluid.waveblast-banner{margin-bottom:-50%; margin-left:25%;}
+.specification-tvs ul li a:not(.border-btn){color:#fff; display:block; border:1px solid #fff; padding:10px 20px; font-weight:500; transition:.3s; text-decoration:none;}
+.specification-tvs ul li a:hover{background:#fff; color:#000;}
+.specification-tvs ul{margin:0 auto; text-align:center; margin-top:50px;}
+.specification-tvs ul li{margin:0 10px;}
+.footer-social ul li i{font-size:20px; margin:0 3px; transition:.3s;}
+img.img-fluid.twin-banner{margin-left:40px;}
+img.img-fluid.waveblast-one-mic{margin-left:-30px;}
+section.speaker-specification ul li{display:block; text-align:left;}
+.row.justify-content-between.px-3 ul{margin-bottom:30px;}
+.row.justify-content-between.px-3 ul:last-child{width:40%;}
+.specification-bg{position:absolute; top:30%; left:0; right:0; transform:translateY(-50%) translateX(-50%); width:899px; z-index:-1;}
+section.speaker-specification ul li{font-weight:100; font-size:15px; line-height:22px;}
+section.speaker-specification p{font-size:16px; font-weight:500; margin-bottom:0;}
+.border-left{position:absolute; left:-8px; width:2px; height:90%; top:0;}
+ul.dotted{margin-left:15px;}
+ul.dotted li{position:relative;}
+ul.dotted li:after{position:absolute; left:-12px; width:6px; height:6px; content:''; background:#fff; border-radius:50%; top:7px;}
+.row.justify-content-center.border{padding-top:50px; padding-bottom:50px; overflow:hidden;}
+.half-section.drumbast.cover.position-relative{height:530px;}
+.single-led-tv.third{margin-bottom:28px;}
+.charge-img.text-center.position-relative .battery{position:relative;}
+ul.product-description li img{display:block; margin:0 auto; max-width:40px; padding-bottom:5px;}
+ul.product-description li{text-align:center; font-weight:100; line-height:1; font-size:15px; padding:0 15px; margin-bottom:10px 0; border-right:2px solid #fff;}
+ul.product-description li:last-child{border:none;}
+ul.product-description li span{font-weight:700;}
+.super-spin.semiauto{height:100vh; background-size:cover; background-position:center; min-height:750px;}
+.policy-content p,.terms-content p{margin-bottom:7px;}
+.policy-content h3,.terms-content h3{font-size:35px;}
+.policy-content,.terms-content{padding:50px 0;}
+.sitemap-content{padding:100px 0;}
+.sitemap-content ul{text-align:center;}
+.sitemap-content ul li{display:inline-flex; align-items:center;}
+.sitemap-content ul li a{text-decoration:none; color:#fff; border:1px solid #fff; padding:8px 12px; border-radius:30px; margin-left:20px; transition:all .4s;}
+.site-map h2{font-size:55px; font-weight:900;}
+.footer.sitemap{background:#000; color:#fff;}
+.footer.sitemap li a{color:#fff; font-weight:300;}
+.sitemap .footer p{font-size:13px; font-weight:300;}
+.footer .copyright p{font-size:13px; font-weight:500; color:#000;}
+.footer .copyright li{border-right:1px solid rgba(0,0,0,.575);}
+.footer .copyright li a{color:#000; font-weight:500;}
+.sitemap ul.footer-menu li{color:#fff; font-weight:300; line-height:35px;}
+ul.sitemap li a{font-size:12px;}
+.footer.sitemap .footer-social ul li{margin-right:10px;}
+ul.sitemap li{margin-right:0!important;}
+.footer.sitemap .footer-social ul{padding:15px 0;}
+ul.sitemap li{border-right:1px solid #fff; padding-right:5px; margin:0; line-height:1;}
+ul.sitemap li:last-child{border:none;}
+.cooming-soon{background:#000;}
+.cooming-soon .text-wrapper{padding:300px 0;}
+.cooming-soon h2{color:#ffff; font-size:55px; font-weight:700; letter-spacing:8px; margin-bottom:20px;}
+.cooming-soon a{color:#fff; border:1px solid #fff; font-weight:500; text-decoration:none; padding:10px; display:inline-block;}
+.form-group{position:relative; margin-bottom:30px;}
+.form-label{position:absolute; top:0; left:20px; color:#fff; transform:translateY(50%); cursor:text; transition:all .15s ease-in-out 0s;}
+.form-control{background:0 0; border-radius:0; color:#fff; padding:0; padding-bottom:7px; border-radius:30px; padding:25px;}
+.form-group .form-control:focus{background:0 0; box-shadow:none; color:#959cb0; border-color:#fff;}
+.form-control:focus~.form-label,.form-control:valid~.form-label{top:-1.5em; left:10px; font-size:.8em; color:inherit; cursor:pointer; outline:0; transform:translateY(0);}
+textarea#remark{border-radius:15px;}
+button.border-btn{background:0 0; color:#fff; font-weight:500; padding:8px 30px; border-radius:30px; border-color:#fff; transition:all .3s;}
+button.border-btn:hover{color:#000; background:#fff;}
+button:focus{outline:0;}
+.partner-form p.form-message{position:relative; width:100%; margin-top:20px;}
+p.text-white.text-small{font-size:14px;}
+img.img-fluid.small{width:80px;}
+section.waveblast.hd-bg.banner img{padding-top:200px; margin-left:120px;}
+section.waveblast-border-less img{padding-top:200px; padding-left:30px;}
+img.img-fluid.remote-speaker{position:absolute; right:20px; bottom:0; width:13%;}
+.remote-waveblast .half-section{padding-top:350px;}
+.aux.drumbast .half-bg,.disco.drumbast .half-bg,section.multi-color.drumblast .half-bg{height:auto;}
+.aux.drumbast .half-bg img{width:100%;}
+
+.e-waste-content ul{margin-left: 17px;}
+.e-waste-content ul li{list-style: disc outside; display: list-item; margin-bottom: 10px;}
+.e-waste-content ul li ul li{list-style: circle; margin-bottom: 10px;}
+.e-waste-content table{width: 100%; border: 1px solid #fff; table-layout: fixed; border-collapse: collapse; text-align:center;}
+.e-waste-content table th,
+.e-waste-content table td{padding: 10px; color:#fff; font-size:16px; line-height: 1.2;}
+.e-waste-content table th{padding-left:0; border-right: 1px solid #fff; border-bottom: 1px solid #fff;}
+.e-waste-content table th:last-child{border-right: 0 none;}
+.e-waste-content table tbody tr td{border-right:1px solid #fff; border-bottom: 1px solid #fff;}
+.e-waste-content table tbody tr td:last-child{border-right:none;}
+.e-waste-content a{color: #fff; text-decoration: underline;}
+.e-waste-content a:hover{text-decoration: none;}
+.e-waste-content img{max-width: 100%; height: auto;}
+
+.page-uhd-70{padding-top: 80px;}
+.uhd-70-banner{position: relative;}
+.uhd-70-banner img{display: block; width: 100%;}
+.uhd-70-banner .section-title{position: absolute; bottom: 75px; left: 0; right: 0;}
+.uhd-70-banner .specification-tvs ul{margin-top: 20px;}
+.uhd-70.text-icon .text p{font-size: 26px;}
+.uhd-70 .icon ul li{height: auto; display: flex; align-items: center;}
+.uhd-70 .icon ul li img{max-width: none; max-height: none; margin-bottom: 0;}
+.uhd-70-display{height: 100vh; background-position: center top; padding: 150px 0 0 50px;}
+.uhd-70-display .section-title{max-width: 800px;}
+.uhd-70-display .section-title p{text-align: justify;}
+.uhd-70-alexa{position: relative;}
+.uhd-70-alexa .section-title{position: absolute; top: 50%; left: 100px; transform: translateY(-50%); max-width: 450px; z-index: 1;}
+.uhd-70-alexa ul{margin-top: 20px; display: inline-block; width: 230px;}
+.uhd-70-alexa ul li{display: block; text-align: left; font-size: 22px; line-height: 1; background: url(../../images/70/icon-alexa-command.png) no-repeat left 4px; background-size: auto 15px; padding: 0 0 15px 30px; margin-bottom: 15px; border-bottom: 1px solid #fff;}
+.uhd-70-alexa ul li:last-child{border-bottom: 0 none; padding-bottom: 0; margin-bottom: 0;}
+.uhd-70-android{height: calc(100vh + 100px); background-position: center bottom; position: relative;}
+.uhd-70-android .section-title{position: absolute; bottom: 150px; left: 0; right: 0;}
+.uhd-70-chromecast{position: relative;}
+.uhd-70-chromecast .section-title{position: absolute; top: 50%; left: 100px; transform: translateY(-50%); max-width: 600px; z-index: 1;}
+.uhd-70-dolby{position: relative;}
+.uhd-70-dolby .container{position: absolute; top: 100px; left: 0; right: 0; z-index: 1;}
+.uhd-70-assistant{padding: 50px 0; position: relative;}
+.uhd-70-assistant img{max-width: 100%; display: block; margin: auto;}
+.uhd-70-assistant .section-title h1{font-size: 50px;}
+.uhd-70-assistant ul{margin-top: 30px; display: flex; flex-wrap: wrap; justify-content: space-between;}
+.uhd-70-assistant ul li{width: 30%; margin-bottom: 10px;}
+.uhd-70-assistant .side-text p{font-size: 14px; margin-bottom: 0; right: -210px;}
+
+.video-box{position: relative; padding-bottom: 56.25%; height: 0;}
+.video-box video{position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
+
+/* UHD new */
+.text-icon.uhd-70-1{padding: 100px 0;}
+.text-icon.uhd-70-1 .specification-tvs ul{margin: 30px 0;}
+.icons-list-tv{display: flex; align-items: center; justify-content: center; flex-wrap: wrap; margin-bottom: 30px;}
+.icons-list-tv li{margin-right: 50px;}
+.icons-list-tv li:last-child{margin-right: 0;}
+.uhd-70-visual-luxury,
+.uhd-70-dolby-1,
+.uhd-70-voice,
+.uhd-70-voice-search,
+.uhd-70-corners,
+.uhd-70-entertainment,
+.uhd-70-screen-cast{position: relative;}
+.uhd-70-visual-luxury .section-title,
+.uhd-70-corners .section-title{color: #000; position: absolute; right: 0; bottom: 100px; left: 0; z-index: 1;}
+.uhd-70-dolby-1 .section-content{position: absolute; top: 0; left: 0; right: 0; padding-top: 60px; z-index: 1; text-align: center;}
+.uhd-70-voice .section-title{top: 22%; position: absolute; z-index: 1; right: 0; transform: translateY(-50%); padding: 60px 60px 0 0; max-width: 550px; text-align: right;}
+.uhd-70-screen-cast .section-title{position: absolute; z-index: 1; top: 50%; right: 0; transform: translateY(-50%); padding: 60px 60px 0 0; max-width: 550px; text-align: right;}
+.uhd-70-voice-search .section-title,
+.uhd-70-entertainment .section-title{position: absolute; z-index: 1; top: 50%; left: 0; transform: translateY(-50%); max-width: 530px; padding: 60px 0 0 60px;}
+.uhd-70-processor{padding-top: 100px;}
+.uhd-70-processor .section-title{margin-bottom: 50px;}
+.uhd-70-processor .icons{position: absolute; top: 50%; right: 0; transform: translateY(-50%); width: 100px;}
+.uhd-70-processor .icons li{display: block; margin-bottom: 20px;}
+.uhd-70-processor .icons li:last-child{margin-bottom: 0;}
+.uhd-70-processor .icons li img{display: block; max-width: 100%;}
+.uhd-70-processor .img-processor{background-color: #000; margin: 0 100px;}
+.uhd-70-processor .img-processor img{display: block; max-width: 100%; height: auto;}
+.uhd-70-connection{padding: 100px 0;}
+.uhd-70-connection .section-title{margin-bottom: 50px;}
+.uhd-70-video .uhd-70-video-box{padding: 50px 15px; max-width: 800px; margin: 0 auto;}
+
+.embedded-video{position: relative; padding-bottom: 56.25%; height: 0;}
+.embedded-video iframe,
+.embedded-video video{position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
+
+
+/* 65 UHD new */
+
+.page-uhd-65-new{padding-top: 80px;}
+.uhd-65-new-banner{position: relative;}
+.uhd-65-new-banner img{display: block; width: 100%;}
+.uhd-65-new-banner .section-title{position: absolute; bottom: 75px; left: 0; right: 0;}
+.uhd-65-new-banner .specification-tvs ul{margin-top: 20px;}
+.uhd-65-new.text-icon .text p{font-size: 26px;}
+.uhd-65-new .icon ul li{height: auto; display: flex; align-items: center;}
+.uhd-65-new .icon ul li img{max-width: none; max-height: none; margin-bottom: 0;}
+.uhd-65-new-display{height: 100vh; background-position: center top; padding: 150px 0 0 50px;}
+.uhd-65-new-display .section-title{max-width: 800px;}
+.uhd-65-new-display .section-title p{text-align: justify;}
+.uhd-65-new-alexa{position: relative;}
+.uhd-65-new-alexa .section-title{position: absolute; top: 50%; left: 100px; transform: translateY(-50%); max-width: 550px; z-index: 1;}
+.uhd-65-new-alexa ul{margin-top: 20px; display: inline-block; width: 230px;}
+.uhd-65-new-alexa ul li{display: block; text-align: left; font-size: 22px; line-height: 1; background: url(../../images/70/icon-alexa-command.png) no-repeat left 4px; background-size: auto 15px; padding: 0 0 15px 30px; margin-bottom: 15px; border-bottom: 1px solid #fff;}
+.uhd-65-new-alexa ul li:last-child{border-bottom: 0 none; padding-bottom: 0; margin-bottom: 0;}
+.uhd-65-new-android{height: calc(100vh + 100px); background-position: center bottom; position: relative;}
+.uhd-65-new-android .section-title{position: absolute; bottom: 150px; left: 0; right: 0;}
+.uhd-65-new-chromecast{position: relative;}
+.uhd-65-new-chromecast .section-title{position: absolute; top: 50%; left: 100px; transform: translateY(-50%); max-width: 600px; z-index: 1;}
+.uhd-65-new-dolby{position: relative;}
+.uhd-65-new-dolby .container{position: absolute; top: 100px; left: 0; right: 0; z-index: 1;}
+.uhd-65-new-assistant{padding: 50px 0; position: relative;}
+.uhd-65-new-assistant img{max-width: 100%; display: block; margin: auto;}
+.uhd-65-new-assistant .section-title h1{font-size: 50px;}
+.uhd-65-new-assistant ul{margin-top: 30px; display: flex; flex-wrap: wrap; justify-content: space-between;}
+.uhd-65-new-assistant ul li{width: 30%; margin-bottom: 10px;}
+.uhd-65-new-assistant .side-text p{font-size: 14px; margin-bottom: 0; right: -210px;}
+
+
+.text-icon.uhd-65-new{padding: 100px 0;}
+.text-icon.uhd-65-new .specification-tvs ul{margin: 30px 0;}
+.icons-list-tv{display: flex; align-items: center; justify-content: center; flex-wrap: wrap; margin-bottom: 30px;}
+.icons-list-tv li{margin-right: 50px;}
+.icons-list-tv li:last-child{margin-right: 0;}
+.uhd-65-new-visual-luxury,
+.uhd-65-new-dolby-1,
+.uhd-65-new-voice,
+.uhd-65-new-voice-search,
+.uhd-65-new-corners,
+.uhd-65-new-entertainment,
+.uhd-65-new-screen-cast{position: relative;}
+.uhd-65-new-visual-luxury .section-title,
+.uhd-65-new-corners .section-title{color: #000; position: absolute; right: 0; bottom: 80px; left: 0; z-index: 1;}
+.uhd-65-new-dolby-1 .section-content{position: absolute; top: 0; left: 0; right: 0; padding-top: 60px; z-index: 1; text-align: center;}
+.uhd-65-new-voice .section-title{top: 22%; position: absolute; z-index: 1; right: 0; transform: translateY(-50%); padding: 60px 60px 0 0; max-width: 550px; text-align: right;}
+.uhd-65-new-screen-cast .section-title{position: absolute; z-index: 1; top: 40%; right: 0; transform: translateY(-50%); padding: 60px 60px 0 0; max-width: 550px; text-align: right;}
+.uhd-65-new-voice-search .section-title,
+.uhd-65-new-entertainment .section-title{position: absolute; z-index: 1; top: 50%; left: 0; transform: translateY(-50%); max-width: 600px; padding: 60px 0 0 60px;}
+.uhd-65-new-processor{padding-top: 100px;}
+.uhd-65-new-processor .section-title{margin-bottom: 50px;}
+.uhd-65-new-processor .icons{position: absolute; top: 50%; right: 0; transform: translateY(-50%); width: 100px;}
+.uhd-65-new-processor .icons li{display: block; margin-bottom: 20px;}
+.uhd-65-new-processor .icons li:last-child{margin-bottom: 0;}
+.uhd-65-new-processor .icons li img{display: block; max-width: 100%;}
+.uhd-65-new-processor .img-processor{background-color: #000; margin: 0 100px;}
+.uhd-65-new-processor .img-processor img{display: block; max-width: 100%; height: auto;}
+.uhd-65-new-connection{padding: 100px 0;}
+.uhd-65-new-connection .section-title{margin-bottom: 50px;}
+.uhd-65-new.amazing-experience{}
+
+@media (min-width:900px) and (max-width:1366px){
+    h1.heading{font-size:40px;}
+    .product-title h3,.section-title h2,.section-title h3,h3{font-size:22px;}
+    .text-icon h2{font-size:40px;}
+    .specification-header h5{font-size:14px;}
+    section .img-fluid.full{max-width:100%!important;}
+    h2.subtitle{font-size:40px;}
+    .section-title p,.specification-text p{font-size:20px;}
+    .product-title h2,.section-title h1,.specification-heading h2,.specification-text h3{font-size:40px;}
+    section .img-fluid{max-width:80%!important; margin:0 auto; text-align:center; display:flex;}
+    section.waveblast-border-less img{padding-top:50px;}
+    .cover{background-size:100% 100%;}
+    .text-icon .text p{font-size:22px;}
+}
+@media (min-width:1400px){
+    .half-section.drumbast.cover.position-relative{height:650px;}
+}
+@media (min-width:1480px){
+    section.waveblast.hd-bg.banner img{padding-top:350px; margin-left:185px;}
+    img.img-fluid.remote-speaker{position:absolute; right:20px; bottom:0; width:14%;}
+    section.waveblast-border-less img{padding-top:260px; padding-left:50px;}
+    .remote-waveblast .half-section{padding-top:450px;}
+    .sound-wave.sound-wave-right.left{left:43.5%; top:-23px;}
+    .sound-wave-right{right:17%; top:24px;}
+    .sound-wave.sound-wave-right.bottom{left:43.5%; top:161px;}
+    .sound-wave.sound-wave-right.bottom-right{right:17%; top:180px;}
+    .sound-wave.sound-wave-right.small{left:22%; top:132px;}
+}
+@media (min-width:1680px){
+    .product-wrapper.speaker{padding:100px 0!important; height:100vh; display:flex; align-items:center;}
+    .home-banner{padding:130px 0; background-repeat:no-repeat; background-size:cover;}
+    section.qled{padding-top:200px;}
+    .smart-hd{padding-bottom:350px;}
+    .product-wrapper{padding:380px 0!important;}
+    .refrigerator img{max-height:700px;}
+    .sound-wave.sound-wave-right.left{left:43.5%; top:-23px;}
+    .sound-wave-right{right:17%; top:24px;}
+    .sound-wave.sound-wave-right.bottom{left:43.5%; top:185px;}
+    .sound-wave.sound-wave-right.bottom-right{right:17%; top:202px;}
+    .sound-wave.sound-wave-right.small{left:16%; transform:rotateY(45deg); top:160px;}
+}
+@media (min-width:1620px){
+    .sound-wave.sound-wave-right.small{left:22%; top:149px;}
+    .sound-wave.sound-wave-right.bottom-right{right:17%; top:211px;}
+    section.bt-audio{height:100vh!important; display:flex; align-items:center;}
+}
+@media (min-width:1720px){
+    .sound-wave.sound-wave-right.bottom{top:193px;}
+    .sound-wave.sound-wave-right.bottom-right{top:224px;}
+}
+@media (min-width:1820px){
+    .sound-wave.sound-wave-right.bottom{top:200px;}
+    .sound-wave.sound-wave-right.bottom-right{top:224px;}
+    .sound-wave.sound-wave-right.small{top:166px;}
+}
+@media (min-width:1850px){
+    .sound-wave.sound-wave-right.bottom{top:221px;}
+    .sound-wave.sound-wave-right.bottom-right{top:243px;}
+    .sound-wave.sound-wave-right.small{top:166px;}
+}
+@media (min-width:1920px){
+    .pt-200{padding-top:200px;}
+    .product-wrapper{padding:400px 0!important;}
+    .sound-wave.sound-wave-right.small{left:22%;}
+    .sitemap-content{padding:200px 0;}
+}
+@media (min-width:1366px){
+    .tv-bottom{bottom:47px!important;}
+}
+@media (max-width:1366px){
+    .section-title.sub-section h2{font-size:30px;}
+}
+@media (min-width:200px) and (max-width:1152px){
+    a.nav-link{font-size:12px;}
+    .half-section.drumbast.cover.position-relative{height:330px;}
+    .internet{padding:90px 0;}
+    .text-icon h2{font-size:40px;}
+    .internet img{margin-bottom:40px;}
+    img.img-fluid.banner-right{margin-bottom:-35px;}
+    .navbar li{margin:0; padding:0; text-align:center;}
+    .bottom-text{right:0; font-size:13px; bottom:-20px; left:0; margin:0 auto; text-align:center;}
+    .section-title h1{font-size:44px;}
+    .section-title h2{font-size:30px;}
+    .section-title h2.subtitle{font-size:44px;}
+    h2.subtitle{font-size:44px;}
+    section.home-banner{background-image:none!important; background:#111010; padding-bottom:200px;}
+    .navbar li{margin-left:0;}
+    .sound-wave.sound-wave-right.left{left:39%; top:-15px;}
+    .sound-wave-right{right:125px; top:17px;}
+    .sound-wave.sound-wave-right.bottom{left:39%; top:124px;}
+    .sound-wave.sound-wave-right.bottom-right{right:130px; top:130px;}
+    .sound-wave.sound-wave-right.small{left:19%; top:100px;}
+    .tv-bottom{bottom:48px;}
+    section#fhdtv .product-bigpreview{margin-bottom:130px;}
+    .qled-tv .product-bigpreview{margin-bottom:50px;}
+    a.border-btn{font-size:14px;}
+    .qled .bigpreview{margin-bottom:100px;}
+    .smart-hd{padding-top:80px;}
+    .refrigerator img{max-height:350px;}
+    .section-title.sub-section h1{font-size:30px;}
+    .section-title.sub-section h2{font-size:25px;}
+    .washingmachine img{max-height:350px;}
+    .seperator{left:49%;}
+    .speakers img{padding-right:50px;}
+    .home-appliances{padding-top:70px;}
+    .ac{padding:100px 0;}
+    .single-led-tv.first img{height:215px;}
+}
+@media (min-width:200px) and (max-width:996px){
+    .icon ul{display:block;}
+    .sitemap-content ul li{display:block; margin-bottom:25px;}
+    .sitemap-content ul li h3{margin-bottom:15px;}
+    .wave-blust-preview{margin-top:150px;}
+    .single-led-tv.first img{height:auto;}
+    .icon ul li p{white-space:normal;}
+    .single-hd-tv.big.text-center.position-relative{margin-top:0;}
+    .single-hd-tv.big.text-center.position-relative{height:auto;}
+    .icon ul li{width:150px; border:none; text-align:center; margin:0 auto; margin-bottom:35px;}
+    .single-hd-tv{height:auto;}
+    .icon.machine-icon ul li{margin-bottom:80px; padding:0;}
+    img.img-fluid.mt-3.hd{margin-top:-50px!important;}
+    .sound-wave.sound-wave-right.left{left:38%; top:-10px;}
+    .sound-wave-right{right:125px; top:17px;}
+    .sound-wave.sound-wave-right.bottom{left:38%; top:111px;}
+    .sound-wave.sound-wave-right.bottom-right{right:122px; top:125px;}
+    .sound-wave.sound-wave-right.small{left:19%; top:100px;}
+    .specification-heading h2{font-size:42px;}
+    .specification-heading h3{font-size:22px;}
+    .specification-text h3{font-size:42px;}
+}
+@media only screen and (min-width:1024px) and (max-height:1366px) and (-webkit-min-device-pixel-ratio:1.5){
+    .product-wrapper{padding:300px 0;}
+    .product-wrapper.speaker{padding:150px 0;}
+    section#fhdtv .product-bigpreview{margin-bottom:200px;}
+    .qled-tv .product-bigpreview{margin-bottom:50px;}
+    .tv-bottom{bottom:67px; width:90%; margin:0 auto;}
+    .product-bigpreview img{width:100%;}
+}
+@media (max-width:996px){
+    .header-area .navbar{padding-left:0; padding-right:0;}
+    .header-area.scrolled{display:block;}
+    ul.submenu{position:static!important; display:block; visibility:visible; opacity:1; background:#0c1923; transition:all ease-in .3s;}
+    .header-area{padding-top:10px;}
+    ul.submenu li{display:block; width:100%; transition:.3s;}
+    ul.submenu li a{display:block; text-align:left; font-size:14px; margin:0;}
+    a.nav-link{font-size:16px;}
+    ul.submenu li a img{max-width:50px; height:auto; margin-right:20px;}
+    ul.submenu{padding:0 20px;}
+    svg{width:35px; height:48px; margin:24px 0 0 28px;}
+    .stage{bottom:-90px; left:75%; width:400px;}
+    ul.submenu li{padding:0;}
+    .nav-link{padding-bottom:0;}
+    .text-icon{padding:120px 0;}
+    .side-preview{height:58%; width:50%;}
+    .conectivity{padding:70px 0;}
+    .amazing-experience{padding-top:0; padding-bottom:60px;}
+    .controller{padding-top:70px;}
+    .footer-widgets ul li{font-size:14px;}
+    .footer-widgets ul li a{font-size:14px;}
+    .footer-widgets{width:110%;}
+}
+@media (min-width:200px) and (max-width:768px){
+    section.waveblast.hd-bg.banner img{margin-left:0;}
+    .banner.drumbast h3,section.waveblast h3{font-size:15px;}
+    .sm-mt-0{margin-top:0;}
+    section.waveblast .half-section{display:flex; align-items:end; padding:0; margin:0; height:39%; overflow:hidden; background-size:cover;}
+    section.waveblast.hd-bg.banner img{padding-top:0;}
+    section.waveblast-border-less img{padding-top:0; padding-left:0;}
+    .p-sm-0{padding:0;}
+    .h-100{height:100vh!important;}
+    .full{height:100%;}
+    .img-fluid.full{height:auto;}
+    .half{height:50%!important;}
+    .remote-waveblast .half-section{background-size:cover; padding:0; height:24vh;}
+    .w-100{width:100%;}
+    img.img-fluid.waveblast-one-mic{margin-left:0; position:absolute; top:50%; right:6%; width:35%;}
+    section.sound-waveblast img{height:251px; width:103%; object-fit:cover;}
+    section.bassblast .banner-overlay{height:250px;}
+    section.bassblast .banner-overlay img{height:100%; object-fit:cover;}
+    .banner-frame.drumbast{width:60%;}
+    .banner-frame.tws-speaker{width:40%;}
+    .policy-content,.terms-content{padding-top:0; padding-bottom:50px;}
+    .internet{padding-bottom:20px;}
+    .policy-content h3,.terms-content h3{font-size:24px;}
+    .half-bg{height:245px;}
+    .sitemap-content{padding:50px 0;}
+    .site-map h2{font-size:35px;}
+    .sitemap-content h3{font-size:24px;}
+    section.tws.drumblast{max-height:500px; min-height:auto;}
+    section.product-wrapper.end .wave-blust-preview{margin-top:85px;}
+    section.product-wrapper.end.left a{margin-bottom:50px;}
+    img.battery{max-width:150px;}
+    .wave-blust-preview{margin-top:50px;}
+    .specification-heading h2{font-size:34px;}
+    .specification-heading h3{font-size:24px;}
+    .specification-text h3{font-size:34px;}
+    .specification-text p{font-size:20px;}
+    h2.subtitle{font-size:34px;}
+    .text-icon{padding:100px 0;}
+    .machine-wrapper{padding:60px 0;}
+    section.front-load.machine-wrapper.hd-bg{margin-top:50px;}
+    .section-title h3{font-size:23px;}
+    .sizling-colors{padding:40px 0;}
+    .px-60{padding:50px 0;}
+    .mirror-smarthd .chromecast-icon{margin-top:-10px;}
+    .dedicated-section{padding:30px 0;}
+    .mirror-frame img.img-fluid.mobile{right:0; left:0; margin:0 auto;}
+    .multiple-conectivity{padding:40px 0;}
+    .text-icon h2{font-size:34px;}
+    section.text-icon.qled-bg{padding:60px 0;}
+    section.text-icon.qled-bg .text{margin-bottom:40px;}
+    .section-title h2.subtitle{font-size:30px;}
+    .section-title p{font-size:20px; font-weight:100;}
+    .header-right{display:none;}
+    .side-preview{display:none;}
+    .bezel .section-title{margin-bottom:40px;}
+    .bezel{padding:40px 0;}
+    .side-text p{bottom:35%;}
+    img.img-fluid.performance{margin-top:-60px;}
+    .performance{padding:30px 0;}
+    section.google-assistant{padding:30px 0;}
+    .nav-tabs .nav-item{width:100%; text-align:center;}
+    a.nav-link{font-size:14px;}
+    .amazing-experience{padding-bottom:30px;}
+    section.home-banner.banner .mt-5{margin-bottom:10px;}
+    section.home-banner{padding-bottom:50px;}
+    .product-wrapper{padding:90px 0;}
+    .product-title h2{font-size:33px;}
+    .qled-tv .product-bigpreview{margin-bottom:0;}
+    section#fhdtv .product-bigpreview{margin-bottom:0;}
+    .text-icon .text p{font-size:18px;}
+    .text-icon.uhd .text{margin-bottom:70px;}
+    .qled .section-title{margin-bottom:70px;}
+    .refrigerator-washingmachine{padding-bottom:0;}
+    .footer-social p{font-size:16px;}
+    .footer-widgets ul li{font-size:14px; line-height:25px;}
+    .footer-widgets ul li a{font-size:14px;}
+    .section-title h1{font-size:33px;}
+    .section-title h2{font-size:23px;}
+    img.img-fluid.frame{height:auto;}
+    .tv-bottom{bottom:27px;}
+    .product-title h2{font-size:35px;}
+    .fhd-tv .product-title{margin-bottom:30px;}
+    .product-title{text-align:center;}
+    .product-title h3{font-size:20px;}
+    a.border-btn{font-size:13px;}
+    .single-hd-tv{margin-bottom:86px; text-align:center;}
+    p.tv-description{bottom:-45px; font-size:14px; width:100px; padding:6px 0;}
+    ul.submenu li a img{max-width:35px;}
+    li.nav-item.television .submenu li a img{min-width:35px;}
+    section.qled{padding-top:40px;}
+    .smart-hd{padding-top:40px; padding-bottom:40px;}
+    section.smart-hd.led{padding-bottom:20px; padding-top:20px;}
+    .refrigerator-washingmachine{padding-top:50px;}
+    .single-led-tv{margin-bottom:45px;}
+    .sound-wave.sound-wave-right.left{left:43%; top:-36px;}
+    .sound-wave-right{right:86px; top:0;}
+    a.navbar-brand img{max-width:125px; margin-left:10px;}
+    .sound-wave.sound-wave-right.bottom{left:43.5%; top:120px;}
+    .sound-wave.sound-wave-right.bottom-right{right:90px; top:135px;}
+    .sound-wave.sound-wave-right.small{left:21%; top:100px;}
+    .refrigerator{margin-top:80px;}
+    svg{width:28px; height:48px; margin:24px 0 0 20px;}
+    .stage{left:0; right:0; margin:0 auto; text-align:center; width:90%; margin-left:0;}
+    .seperator{display:none;}
+    .homeappliances img{width:100%;}
+    .speakers img{padding-right:0; margin-bottom:50px;}
+    .washingmachine{margin-bottom:70px;}
+    .refrigerator{margin-bottom:70px;}
+    .footer-social{display:inline;}
+    .footer-widgets{margin-bottom:10px;}
+    section.footer{padding-bottom:20px;}
+    .text-icons{padding:60px 0;}
+    section.hot-water.cover{min-height:500px; max-height:50vh;}
+    .controller{padding:30px 0;}
+    .vibration-image{margin-top:65px;}
+    section.top-load.machine-wrapper.banner{margin-top:50px;}
+    .tough-bucket-topload{width:75%;}
+    section.wash .specification-text{background-color:#111010;}
+    section.wash{height:600px;}
+    .spec-img{text-align:center;}
+    .pt-60{padding-top:50px;}
+    .pb-60{padding-bottom:40px;}
+    .pb-100{padding-bottom:60px;}
+    .tough-bucket{width:85%;}
+    section.semi-automatic-banner .specification-heading{margin-bottom:28px;}
+    .compact-design-frame{right:25%;}
+    .text-icons.semi-auto .specification-text{margin-bottom:60px;}
+    .specification-header h5{font-size:16px;}
+    .specification-header p{font-size:14px;}
+    .specification-header{padding:5px 0;}
+    a.btn-black{height:32px;}
+    .top-load.specification-baner{margin-top:80px;}
+    section.product-specificationtab.washingmachine{margin-bottom:0;}
+    section.front-load.specification-baner.cover{margin-top:80px;}
+    .stone{width:30%; transform:translateY(-98%); margin:0 auto;}
+    table.table.table-borderless tr td:first-child{width:45%;}
+    .tab-pane{padding-left:0; padding-right:0;}
+    .half-section.contact-us{height:200px;}
+    .company-location.email{padding:100px 0;}
+    .company-detail-bannner p{padding:200px 0;}
+    .ai-banner p{margin-top:400px;}
+    section.sansui-detail{padding:40px 0;}
+    .nav-tabs.support .nav-item{margin-bottom:15px;}
+    .support-content h3{font-size:24px; margin:15px 0;}
+    .uhd.position-relative .sound-wave-wrapper.active.tv{bottom:35px;}
+    .uhd.position-relative .sound-wave.sound-wave-right.tv-right{top:-15px;}
+    .sound-wave-wrapper.active.tv{bottom:12px;}
+    .fhd.position-relative .sound-wave-wrapper.active.tv{bottom:40px;}
+    .fhd.position-relative .sound-wave.sound-wave-right.tv-right{top:-10px;}
+    .smarthd.position-relative .sound-wave-wrapper.active.tv{bottom:50px;}
+    .led.position-relative .sound-wave-wrapper.active.tv{bottom:30px;}
+    .specification-tvs ul li{margin-bottom:10px;}
+    ul.product-description li{font-size:13px; padding:0 10px;}
+    ul.product-description li img{max-width:30px;}
+    .cooming-soon .text-wrapper{padding:250px 0;}
+    .form-control{padding:10px;}
+    .form-label{font-size:13px;}
+}
+@media (max-width:390px){
+    .smarthd.position-relative .sound-wave-wrapper.active.tv{bottom:30px;}
+    ul.product-description li{font-size:12px; padding:0 5px;}
+    ul.product-description li img{max-width:25px;}
+}
+@media (max-width:320px){
+    img.img-fluid.mt-3.hd{margin-top:0;}
+}
+
+@media all and (max-width: 1500px){
+    .uhd-70-display .section-title{max-width: 700px;}
+    .uhd-70-android .section-title{bottom: 100px;}
+    .uhd-70-chromecast .section-title{left: 50px;}
+    .uhd-70-dolby .container{top: 50px;}
+}
+
+@media all and (max-width: 1400px){
+    .uhd-70-display .section-title,
+    .uhd-70-chromecast .section-title{max-width: 550px;}
+    .uhd-70-alexa .section-title{left: 50px;}
+}
+@media(max-width: 1365px){
+
+    .uhd-65-new-alexa .section-title{max-width: 400px;}
+    .uhd-65-new-voice .section-title{max-width: 450px; top: 16%; padding: 60px 40px 0 0;}
+    .uhd-65-new-dolby-1 .section-content{padding-top: 25px;}
+    .uhd-65-new-voice-search .section-title, .uhd-65-new-entertainment .section-title{max-width: 500px;}
+    .uhd-65-new-screen-cast .section-title{max-width: 450px; padding: 60px 40px 0 0; top: 32%;}
+}
+
+@media all and (max-width: 1200px){
+    .uhd-70-visual-luxury .section-title,
+    .uhd-70-corners .section-title{
+        bottom: 20px;
+    }
+}
+
+@media all and (max-width: 999px){
+    .uhd-70-banner .section-title{bottom: 0;}
+    .uhd-70.text-icon{padding: 100px 0 70px;}
+    .uhd-70.text-icon .text p{font-size: 18px;}
+    .uhd-70 .icon ul{display: flex; flex-wrap: wrap; justify-content: center;}
+    .uhd-70 .icon ul li{width: auto; margin: 0 0 30px;}
+    .uhd-70-display{position: relative; height: auto; padding: 50px;}
+    .uhd-70-display::after,
+    .uhd-70-alexa::after,
+    .uhd-70-chromecast::after{position: absolute; content: ""; top: 0; right: 0; bottom: 0; left: 0; background-color: rgba(0,0,0,0.7);}
+    .uhd-70-alexa .section-title{z-index: 1; transform: translateY(-70%);}
+    .uhd-70-display .section-title{position: relative; z-index: 1; max-width: none;}
+    .uhd-70-alexa::after{background-color: rgba(0,0,0,0.3);}
+    .uhd-70-alexa ul li{font-size: 20px;}
+    .uhd-70-android{height: 45vh;}
+    .uhd-70-android .section-title{bottom: 20px;}
+    .uhd-70-assistant .section-title h1{font-size: 33px;}
+    .uhd-70-chromecast .section-title{max-width: 420px; z-index: 1;}
+    .uhd-70-dolby{padding-top: 60px;}
+    .text-icon.uhd-70-1{padding: 50px 0;}
+    .icons-list-tv{display: block;}
+    .icons-list-tv li{margin-right: 0; margin-bottom: 20px;}
+    .icons-list-tv li:last-child{margin-bottom: 0;}
+    .icons-list-tv li img{max-width: 200px; height: auto;}
+    .uhd-70-visual-luxury .section-title,
+    .uhd-70-corners .section-title{position: relative; bottom: auto; padding: 30px 10px;}
+    .uhd-70-visual-luxury{background-color: #fff;}
+    .uhd-70-visual-luxury .section-title p br{display: none;}
+    .uhd-70-dolby-1,
+    .uhd-70-voice-search{padding-top: 75%;}
+    .uhd-70-dolby-1 .section-content,
+    .uhd-70-processor{padding-top: 30px;}
+    .uhd-70-dolby-1 .section-title h1 img{width: 100%; height: auto;}
+    .uhd-70-voice .section-title,
+    .uhd-70-screen-cast .section-title{position: relative; top: auto; padding: 30px 10px 0 0; transform: none;}
+    .uhd-70-voice-search .section-title{padding: 0 0 0 10px;}
+    .uhd-70-corners,
+    .uhd-70-entertainment{display: flex; flex-wrap: wrap;}
+    .uhd-70-corners .section-title,
+    .uhd-70-entertainment .section-title{color: #fff; order: -1; padding-bottom: 0; position: relative; top: auto; transform: none;}
+    .uhd-70-entertainment .section-title{padding: 30px 0 0 10px;}
+    .uhd-70-processor .icons{position: relative; top: auto; right: auto; transform: none; display: flex; justify-content: space-between; width: 100%; margin-bottom: 30px;}
+    .uhd-70-processor .icons li{margin-bottom: 0; width: 25%;}
+    .uhd-70-connection{padding: 30px 0;}
+
+    .uhd-65-new-dolby-1 .section-content{padding-top: 0;}
+    .uhd-65-new-visual-luxury .section-title, .uhd-65-new-corners .section-title{bottom: 15px;}
+    .uhd-65-new.amazing-experience{padding: 50px 0;}
+}
+@media(max-width: 991px){
+    .uhd-65-new-banner .section-title{bottom: 0;}
+    .uhd-65-new.text-icon{padding: 100px 0 70px;}
+    .uhd-65-new.text-icon .text p{font-size: 18px;}
+    .uhd-65-new .icon ul{display: flex; flex-wrap: wrap; justify-content: center;}
+    .uhd-65-new .icon ul li{width: auto; margin: 0 0 30px;}
+    .uhd-65-new-display{position: relative; height: auto; padding: 50px;}
+    .uhd-65-new-display::after,
+    .uhd-65-new-alexa::after,
+    .uhd-65-new-chromecast::after{position: absolute; content: ""; top: 0; right: 0; bottom: 0; left: 0; background-color: rgba(0,0,0,0.7);}
+    .uhd-65-new-alexa .section-title{z-index: 1; position: relative; top: auto; left: auto; transform: none; padding: 20px;}
+    .uhd-65-new-display .section-title{position: relative; z-index: 1; max-width: none;}
+    .uhd-65-new-alexa::after{background-color: rgba(0,0,0,0.3);}
+    .uhd-65-new-alexa ul li{font-size: 20px;}
+    .uhd-65-new-android{height: 45vh;}
+    .uhd-65-new-android .section-title{bottom: 20px;}
+    .uhd-65-new-assistant .section-title h1{font-size: 33px;}
+    .uhd-65-new-chromecast .section-title{max-width: 420px; z-index: 1;}
+    .uhd-65-new-dolby{padding-top: 60px;}
+    .text-icon.uhd-65-new{padding: 50px 0;}
+    .uhd-65-new-visual-luxury .section-title,
+    .uhd-65-new-corners .section-title{position: relative; bottom: auto; padding: 30px 10px;}
+    .uhd-65-new-visual-luxury{background-color: #fff;}
+    .uhd-65-new-visual-luxury .section-title p br{display: none;}
+    .uhd-65-new-dolby-1,
+    .uhd-65-new-voice-search{padding-top: 75%;}
+    .uhd-65-new-dolby-1 .section-content,
+    .uhd-65-new-processor{padding-top: 30px;}
+    .uhd-65-new-dolby-1 .section-title h1 img{width: 100%; height: auto;}
+    .uhd-65-new-voice .section-title,
+    .uhd-65-new-screen-cast .section-title{position: relative; top: auto; padding: 30px 20px 20px 20px; margin: 0 0 0 auto; transform: none;}
+    .uhd-65-new-voice-search .section-title{padding: 20px 20px 20px 20px; top: 32%;}
+    .uhd-65-new-corners,
+    .uhd-65-new-entertainment{display: flex; flex-wrap: wrap;}
+    .uhd-65-new-corners .section-title,
+    .uhd-65-new-entertainment .section-title{color: #fff; order: -1; padding-bottom: 0; position: relative; top: auto; transform: none;}
+    .uhd-65-new-entertainment .section-title{padding: 30px 0 0 10px;}
+    .uhd-65-new-processor .icons{position: relative; top: auto; right: auto; transform: none; display: flex; justify-content: space-between; width: 100%; margin-bottom: 30px;}
+    .uhd-65-new-processor .icons li{margin-bottom: 0; width: 25%;}
+    .uhd-65-new-connection{padding: 30px 0;}
+
+    .uhd-65-new-dolby-1 .section-content{padding-top: 0;}
+    .uhd-65-new-visual-luxury .section-title, .uhd-65-new-corners .section-title{bottom: 15px;}
+    .uhd-65-new-processor .img-processor{margin: 0 0;}
+}
+
+@media all and (max-width: 767px){
+    .uhd-70-banner{padding-bottom: 0;}
+    .uhd-70-banner img{width: auto; max-width: 100%; object-fit: cover; object-position: center top; height: 300px;}
+    .uhd-70-banner .section-title{position: relative; bottom: auto; left: auto; right: auto; padding: 20px 10px 0;}
+    .uhd-70-banner .section-title h2{font-size: 18px;}
+    .uhd-70-display{padding: 30px 15px;}
+    .uhd-70-alexa{padding: 30px 0 50px;}
+    .uhd-70-alexa .section-title{padding: 0 15px; position: relative; top: auto; left: auto; right: auto; transform: translateY(0);}
+    .uhd-70-alexa ul{margin-top: 0;}
+    .uhd-70-alexa .video-box{position: relative; left: 0; right: 0; bottom: 0;}
+    .uhd-70-android{height: 55vh;}
+    .uhd-70-android .section-title{padding: 0 10px;}
+    .uhd-70-android .section-title p br{display: none;}
+    .uhd-70-chromecast{padding: 30px 0 150px;}
+    .uhd-70-chromecast::after{background-color: rgba(0,0,0,0.3);}
+    .uhd-70-chromecast .section-title{padding: 0 15px; position: relative; top: auto; left: auto; right: auto; transform: translateY(0);}
+    .uhd-70-chromecast ul{margin-top: 0;}
+    .uhd-70-chromecast .video-box{position: absolute; left: 0; right: 0; bottom: 0;}
+    .uhd-70-assistant .col-sm-4 img{width: 50%; margin-bottom: 30px;}
+    .uhd-70-assistant .section-title h1{font-size: 28px;}
+    .uhd-70-dolby{padding: 30px 0 220px;}
+    .uhd-70-dolby .container{position: relative; top: auto; left: auto; right: auto;}
+    .uhd-70-dolby .video-box{position: absolute; bottom: 0; left: 0; right: 0; overflow: hidden; padding-bottom: 85%;}
+    .uhd-70-dolby .video-box video{object-fit: cover; object-position: center center; height: 320px;}
+    .uhd-70-dolby-1{padding-top: 0;}
+    .uhd-70-dolby-1 .section-content{position: relative; top: auto; transform: none;}
+    .uhd-70-voice-search .section-title{position: relative;    top: auto;    transform: none;    padding: 20px;}
+
+    .uhd-65-new-banner{padding-bottom: 0;}
+    .uhd-65-new-banner img{width: auto; max-width: 100%; object-fit: cover; object-position: center top; height: 300px;}
+    .uhd-65-new-banner .section-title{position: relative; bottom: auto; left: auto; right: auto; padding: 20px 10px 0;}
+    .uhd-65-new-banner .section-title h2{font-size: 18px;}
+    .uhd-65-new-display{padding: 30px 15px;}
+
+    .uhd-65-new-alexa .section-title{padding: 0 15px; position: relative; top: auto; left: auto; right: auto; transform: translateY(0);}
+    .uhd-65-new-alexa ul{margin-top: 0;}
+    .uhd-65-new-voice-search{padding-top: 0;}
+    .uhd-65-new-voice-search .section-title{top: auto; transform: none; position: relative; padding: 20px;}
+    .uhd-65-new-android{height: 55vh;}
+    .uhd-65-new-android .section-title{padding: 0 10px;}
+    .uhd-65-new-android .section-title p br{display: none;}
+    .uhd-65-new-chromecast{padding: 30px 0 150px;}
+    .uhd-65-new-chromecast::after{background-color: rgba(0,0,0,0.3);}
+    .uhd-65-new-chromecast .section-title{padding: 0 15px; position: relative; top: auto; left: auto; right: auto; transform: translateY(0);}
+    .uhd-65-new-chromecast ul{margin-top: 0;}
+    .uhd-65-new-chromecast .video-box{position: absolute; left: 0; right: 0; bottom: 0;}
+    .uhd-65-new-assistant .col-sm-4 img{width: 50%; margin-bottom: 30px;}
+    .uhd-65-new-assistant .section-title h1{font-size: 28px;}
+    .uhd-65-new-dolby{padding: 30px 0 220px;}
+    .uhd-65-new-dolby .container{position: relative; top: auto; left: auto; right: auto;}
+    .uhd-65-new-dolby .video-box{position: absolute; bottom: 0; left: 0; right: 0; overflow: hidden; padding-bottom: 85%;}
+    .uhd-65-new-dolby .video-box video{object-fit: cover; object-position: center center; height: 320px;}
+    .uhd-65-new-dolby-1{padding-top: 0;}
+    .uhd-65-new-dolby-1 .section-content{position: relative; padding: 20px 0   ; top: auto; transform: none;}
+
+}

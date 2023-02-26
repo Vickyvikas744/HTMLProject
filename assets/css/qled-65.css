@@ -1,0 +1,280 @@
+body,
+.main-title{color: #212529;}
+.qled-sansui-banner {
+    background-image: url(../../images/qled-65/back-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.space-pd-sm{padding: 80px 0;}
+.main-title{font-weight: 600;font-size: 64px;text-transform: uppercase;}
+.main-title span{font-weight: 300;display: block;}
+.space-pd{padding:200px 0;}
+.contain{font-size: 28px;color: #fff;}
+.banner-title{padding-top: 170px;}
+.banner-title h1.heading{font-weight: 700;line-height: 84px;font-size: 82px;color: #fff;}
+.banner-title p{font-size: 28px;color: #fff;}
+.banner-title img{width: 40%;display: block;}
+.title_overlay{background: url(../../images/qled-65/text-overlay.png);
+    background-size: cover;
+    color: #fff;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    padding: 0;}
+/*    */
+.white_bg{background-image: url(../../images/qled-65/back_bg.png);background-repeat: no-repeat;background-size: cover;}
+.black_bg{background-image: url(../../images/qled-65/black-bg.png);background-repeat: no-repeat;background-size: cover;}
+.entertainment-section img{padding-top: 55px;}
+/**/
+.qled-section{background-image: url(../../images/qled-65/qled-bg.png);background-repeat: no-repeat;background-size: cover;height: 100vh;display: flex;align-items: center;}
+.qled-contain{width: 350px}
+.qled-contain p{font-size: 22px;color: #fff;padding-left: 30px;position: relative;}
+.qled-contain p:before{content: '';position: absolute;height: 100%;width: 2px;background: #fff;left: 0;top: 0;}
+.head_section p{font-size: 24px;}
+/*     */
+.google-contain img{width: 60%;}
+.google-contain p{margin-top: 25px;}
+.google-contain p span{display: block;}
+.google{text-align: center;}
+.google-details{padding: 25px 10px;position: relative;height: 275px;}
+.google-details p{font-size: 18px;}
+.google-details a{padding-top: 35px;display: block;    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;}
+/*    */
+.just-contain img{margin: auto;display: block;}
+.just-contain p{position: relative;font-size: 22px;color: #fff;padding-right: 30px;text-align: right;}
+.just-contain p:after{content: '';position: absolute;height: 100%;width: 2px;background: #fff;right: 0;top: 0;}
+.just-contain h2.main-title{font-size: 48px;}
+/**/
+.build-contain{padding-left: 50px;}
+.need-contain{text-align: right;}
+.need-contain p{max-width: 450px;float: right;    font-size: 22px;
+    color: #fff;}
+/*    */
+.qled_contain p{max-width: 650px;margin: auto;}
+/**/
+.vission-logo{    width: 19%;
+    margin: auto;
+    display: block;
+    padding-top: 70px;}
+/*    */
+/*.led-section{background-image: url(../../images/qled-65/led-bg.png);background-repeat: no-repeat;background-size: cover;background-position: center;}*/
+.brand-image{margin-top: 15px;}
+.brand-image ul{text-align: center;}
+.brand-image ul li{padding: 15px;position: relative;    float: left;display: inherit;    width: 33%;}
+.brand-image ul li:after{content: '';position: absolute;height: 50px;width: 2px;background: #fff;right: 0px;top: 0;bottom: 0;}
+.brand-image ul li:nth-child(3):after{display: none !important;}
+.brand-image ul li img{    width: 50%;}
+/**/
+.vision-section{background-color: #fff;}
+.fun-section{background-image: url(../../images/qled-65/led-bg-new.png);background-repeat: no-repeat;background-size: cover;background-position: center;}
+/**/
+.connect-section{background-image: url(../../images/qled-65/connect-bg.png);background-repeat: no-repeat;background-size: cover;
+    background-position: center;height: 115vh;}
+/*    */
+.power-section{background-image: url(../../images/qled-65/power-bg.png);background-repeat: no-repeat;background-size: cover;background-position: center;height: 110vh;}
+.warrenty-section{background-image: url(../../images/qled-65/warrenty.png);background-repeat: no-repeat;background-size: cover;background-position: center;height: 120vh;}
+.comparison-slider-container ul{display: flex;
+    justify-content: space-between;}
+    .comparison-slider-container ul li{font-size: 22px;
+    font-weight: 500;
+    padding-bottom: 15px;}
+/* video background */
+#background-video {
+  height: 120vh;
+  width: 100vw;
+  object-fit: cover;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+.led-section{position: relative;}
+.listen_head{position: absolute;top:30px;width: 100%;}
+.led-section .container{position: absolute;bottom: 33px;
+    margin: auto;
+    left: 0;
+    right: 0;}
+
+/*Responsive Css*/
+@media (min-width:1400px) and (max-width:1500px){
+.connect-section{height: 90vh;}
+}
+@media (max-width: 1400px){
+    /*.qled-sansui-banner{height: 70vh;}
+    .qled-section{height: 75vh;}*/
+/*    .brand-image ul li{width: 25%;}*/
+    /*.connect-section{    height: 77vh;}
+    .power-section{    height: 74vh;}
+    .warrenty-section{    height: 75vh;}*/
+}
+@media (min-width:1300px) and (max-width:1400px){
+    .banner-title {
+    padding-top: 120px;
+}
+.main-title{font-size: 48px;}
+.just-contain h2.main-title {
+    font-size: 38px;
+}
+}
+@media (min-width:1200px) and (max-width:1300px){
+    .banner-title {padding-top: 90px;}
+    .main-title{font-size: 48px;}
+}
+@media (max-width: 1300px){
+    .connect-section h2.main-title{font-size: 46px;}
+   
+}
+@media (max-width: 1199px){
+    /*.space-pd{padding: 70px 0}
+    .space-pd-sm{padding: 70px 0}
+    .qled-sansui-banner{    height: 47vh;}
+    .qled-section{height: 42vh;}
+    .need-contain{margin-top: 25px;}
+    .connect-section{height: 43vh;}
+    .connect-section .main-title{display: none;}
+    .power-section{height: 55vh;}
+    .warrenty-section{height: 55vh;}*/
+}
+@media (max-width: 1024px){
+    .space-pd{padding: 70px 0}
+    .space-pd-sm{padding: 70px 0}
+    .qled-sansui-banner{    height: 100vh;}
+    .banner-title {
+    padding-top: 80px;
+}
+.banner-title h1.heading{line-height: 54px;
+    font-size: 54px;}
+    img.tag-line{width: 25%;}
+    .main-title{font-size: 54px;}
+    .qled-section{height: 100vh;}
+    .need-contain{margin-top: 25px;}
+    .connect-section{height: 43vh;}
+    .connect-section .main-title{display: none;}
+    .power-section{height: 150vh;}
+    .warrenty-section{height: 120vh;}
+    .google-details p {
+    font-size: 16px;
+}
+}
+@media (max-width: 991px){
+    .space-pd{padding: 50px 0}
+    .space-pd-sm{padding: 50px 0}
+    .qled-sansui-banner{height: 100vh;
+    background-position: center;}
+    .main-title{font-size: 36px;}
+    .banner-title {padding-top: 24px;}
+    .need-contain{margin-top: 25px;}
+    .led-section .container{display: none;}
+    .listen_head{display: none;}
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1){
+.qled-sansui-banner {
+    height: 47vh;
+    background-position: center;
+}
+.banner-title {
+    padding-top: 90px;
+}
+ .space-pd{padding: 70px 0}
+    .space-pd-sm{padding: 70px 0}
+    .qled-sansui-banner{    height: 47vh;}
+    .qled-section{height: 42vh;}
+    .need-contain{margin-top: 25px;}
+    .connect-section{height: 43vh;}
+    .connect-section .main-title{display: none;}
+    .power-section{height: 55vh;}
+    .warrenty-section{height: 55vh;}
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+.qled-sansui-banner{height: 75vh;}
+.banner-title{padding-top: 27px;}
+.space-pd{padding: 50px 0}
+    .space-pd-sm{padding: 50px 0}
+    .qled-section{    height: 70vh;}
+}
+@media (max-width: 767px){
+    .space-pd{padding: 50px 0}
+    .space-pd-sm{padding: 50px 0}
+    .qled-sansui-banner{height: 68vh;
+    background-position: center;}
+    .main-title{font-size: 36px;}
+    .qled-section{height: 43vh;}
+     .google-details{margin-bottom: 45px;}
+     .need-contain{margin-top: 25px;}
+     .tv-contain img{margin-top: 25px;}
+     .connect-section{height: 44vh;}
+     .power-section{height: 65vh;}
+     .warrenty-section{height: 60vh;}
+}
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) { 
+.power-img img{width: 48%;}
+.banner-title h1.heading{    line-height: 52px;
+    font-size: 53px;}
+    img.tag-line{width: 24%;}
+    .qled-sansui-banner {
+    height: 100vh;
+    background-position: top;
+}
+.qled-section {
+    height: 100vh;
+}
+.connect-section {
+    height: 110vh;
+}
+.power-section {
+    height: 104vh;
+}
+}
+@media (min-width:576px){
+    .mobile-banner{display: none !important;}
+    .mobile-qled-section{display: none;}
+}
+@media (max-width:576px){
+    .qled-sansui-banner{    height: 43vh;    background-position: right 7% bottom 45%;}
+    .qled-sansui-banner .container{display: none;}
+    .qled-section .container{display: none;}
+    .mobile-banner{display: block;}
+    .banner-title p{color: #000;}
+    .banner-title {padding-top: 0px;}
+    .banner-title p {font-size: 22px;}
+    .banner-title h1.heading{line-height: 70px;font-size: 70px;color: #000;}
+    .banner-title img {
+    width: 60%;}
+    img.tag-line {width: 40%;}
+    .main-title{font-size: 28px;}
+    .entertainment-section img {padding-top: 20px;}
+    .qled-section{height: 35vh;}
+    .google-details{    height: 210px;
+    margin-bottom: 45px;}
+    .just-contain h2.main-title {font-size: 38px;}
+    .build-contain {padding-left: 0px;}
+    .need-contain{margin-top: 25px;}
+    .contain {font-size: 22px;}
+    .vission-logo {width: 50%;}
+    .connect-section{height: 36vh;}
+    .connect-section h2{display: none;}
+    .power-section{    height: 60vh;}
+    .warrenty-section{height: 50vh;}
+    .brand-image ul li {
+    width: 100%;
+}
+.brand-image ul li:after{display: none !important;}
+.brand-image ul li img {
+    width: 60%;
+}
+.mobile-qled-section h2.main-title{color: #000;}
+.mobile-qled-section p{color: #000;}
+.qled-contain p:before{background: #000;}
+#background-video{height: 40vh;}
+.comparison-slider-container ul li{font-size: 16px;}
+}
+@media (max-width:480px){
+.connect-section {
+    height: 32vh;
+}
+}
